@@ -1,0 +1,10 @@
+3월 17, 2022 9:35:47 오후 kr.co.kwonshzzang.javabasic.chapter06.ch11.MyLogger warning
+경고: name must not be null
+3월 17, 2022 9:35:47 오후 kr.co.kwonshzzang.javabasic.chapter06.ch11.MyLogger warning
+경고: 이름이 너무 길어요
+3월 17, 2022 9:38:28 오후 kr.co.kwonshzzang.javabasic.chapter06.ch11.MyLogger warning
+경고: name must not be null
+3월 17, 2022 9:38:28 오후 kr.co.kwonshzzang.javabasic.chapter06.ch11.MyLogger warning
+경고: 이름이 너무 길어요
+3월 17, 2022 9:38:28 오후 kr.co.kwonshzzang.javabasic.chapter06.ch11.MyLogger fine
+미세: begin getStudentName
