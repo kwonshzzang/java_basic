@@ -2,7 +2,7 @@ package kr.co.kwonshzzang.javabasic.chapter03.ch02;
 
 public class VIPCustomer extends Customer {
     private int agentId;
-    private double salesRatio;
+    double salesRatio;
 
     public VIPCustomer() {
         customerGrade = "VIP";
@@ -11,6 +11,6 @@ public class VIPCustomer extends Customer {
     }
 
     public int getAgentId() {
-        return this.agentId;
+        return agentId;
     }
 }

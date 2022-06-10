@@ -1,19 +1,13 @@
 package kr.co.kwonshzzang.javabasic.chapter03.ch02;
-
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class Customer {
     protected int customerId;
     protected String customerName;
     protected String customerGrade;
-    protected int bonusPoint;
-    protected double bonusRatio;
+    int bonusPoint;
+    double bonusRatio;
 
     public Customer() {
-        this.customerGrade = "SILVER";
+        customerGrade = "SILVER";
         bonusRatio = 0.01;
     }
 
@@ -22,8 +16,47 @@ public class Customer {
         return price;
     }
 
-    @Override
-    public String toString() {
+    public int getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
+
+    public String getCustomerGrade() {
+        return customerGrade;
+    }
+
+    public void setCustomerGrade(String customerGrade) {
+        this.customerGrade = customerGrade;
+    }
+
+    public int getBonusPoint() {
+        return bonusPoint;
+    }
+
+    public void setBonusPoint(int bonusPoint) {
+        this.bonusPoint = bonusPoint;
+    }
+
+    public double getBonusRatio() {
+        return bonusRatio;
+    }
+
+    public void setBonusRatio(double bonusRatio) {
+        this.bonusRatio = bonusRatio;
+    }
+
+    public String showCustomerInfo() {
         return customerName + "님의 등급은 " + customerGrade + "이며, 보너스 포인트는 " + bonusPoint + "입니다.";
     }
 }
